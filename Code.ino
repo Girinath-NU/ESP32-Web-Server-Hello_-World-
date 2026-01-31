@@ -9,8 +9,7 @@ WiFiServer server(80);
 
 void setup() {
   // Start Serial Monitor
-  Serial.begin(115200);
-,  // Connect to Wi-Fi
+  Serial.begin(115200); // Connect to Wi-Fi
   WiFi.begin(ssid, password);
   Serial.println("Connecting to WiFi...");
   
